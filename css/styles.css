@@ -1,0 +1,119 @@
+/************ MOBILE FIRST ************/
+
+/* GENERAL STYLES */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  color:#2e3133;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p{
+  text-align: center;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+
+p{
+  font-size: 1.3em
+}
+
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.main-wrapper{
+  width: 100%;
+}
+
+/* HEADER STYLES */
+header{
+  background-color: #fcfbf7;
+}
+
+header h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 30px;
+}
+
+nav ul{
+  width: 100%;
+  padding: 0;
+}
+
+nav ul li{
+  background-color: #fff;
+  text-align: center;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+  padding: 10px 0;
+}
+
+nav a{
+padding: 5px 180px;
+}
+
+/* HOME STYLES */
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30px;
+  padding: 40px 0;
+}
+
+#home img{
+ max-width: 300px;
+ margin: 0 auto;
+}
+
+/* PORTFOLIO STYLES */
+
+#portfolio{
+  margin: 0 30px;
+}
+
+#portfolio h2{
+margin: 60px auto;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 20px;
+}
