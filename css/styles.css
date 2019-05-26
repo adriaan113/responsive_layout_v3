@@ -83,7 +83,7 @@ nav ul li{
 }
 
 nav a{
-padding: 5px 180px;
+display: block;
 }
 
 /* HOME STYLES */
