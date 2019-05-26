@@ -130,4 +130,34 @@ margin: 60px auto;
 /* CONTACT STYLES */
 #contact{
 background-color: #fcfbf7;
+padding: 50px 20px;
 }
+
+#contact ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact li{
+  padding: 10px 0;
+}
+
+/* FOOTER STYLES */
+footer{
+  margin: 0 20px;
+  border-top: 1px solid black;
+  padding: 30px 0;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* PSEUDO CLASSES */
+
+a:link{}
+
+a:visited{}
