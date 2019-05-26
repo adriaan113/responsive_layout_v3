@@ -27,11 +27,19 @@ p{
 
 h2{
   text-transform: uppercase;
+  font-size: 1em;
+}
+
+h3{
+  font-size: 1.4em;
+  font-weight: bold;
+
 }
 
 
 p{
-  font-size: 1.3em
+  font-size: 1.2em;
+  font-weight:100;
 }
 
 
@@ -84,6 +92,7 @@ nav ul li{
 
 nav a{
 display: block;
+padding: 5px 0;
 }
 
 /* HOME STYLES */
@@ -116,4 +125,9 @@ margin: 60px auto;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   grid-template-rows: repeat(2,1fr);
   grid-gap: 20px;
+}
+
+/* CONTACT STYLES */
+#contact{
+background-color: #fcfbf7;
 }
