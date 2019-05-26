@@ -33,7 +33,6 @@ h2{
 h3{
   font-size: 1.4em;
   font-weight: bold;
-
 }
 
 
@@ -73,17 +72,14 @@ header h1{
   padding-top: 20px;
 }
 
-nav{
+nav ul{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin: 0 30px;
 }
 
-nav ul{
-  width: 100%;
-  padding: 0;
-}
+
 
 nav li{
   background-color: #fff;
@@ -131,7 +127,6 @@ margin: 60px auto;
 
 #portfolio h3{
   padding-top: 15px;
-
 }
 
 .grid{
@@ -194,4 +189,21 @@ color: black;
 
 a:visited{
   color: black;
+}
+
+/************ MEDIA QUERIES ************/
+
+@media screen and (min-width: 768px){
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+  }
+
+}
+
+
+@media screen and (min-width: 1024px){
+
 }
