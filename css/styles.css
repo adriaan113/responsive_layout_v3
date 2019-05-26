@@ -156,8 +156,22 @@ footer ul{
   justify-content: space-between;
 }
 
+footer li{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.footer-logo{
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+}
+
 /* PSEUDO CLASSES */
 
-a:link{}
+a:link{
+color: black;
+}
 
-a:visited{}
+a:visited{
+  color: black;
+}
