@@ -110,7 +110,7 @@ padding: 5px 0;
 
 #home .main-text {
   margin: 0;
-  padding: 40px 50px 0 40px;
+  padding: 40px 20px 0 40px; /*20px padding + 30px margin = 50px total. aligned with #contact text.
 }
 
 #home img{
@@ -143,7 +143,11 @@ margin: 60px auto;
 /* CONTACT STYLES */
 #contact{
 background-color: #fcfbf7;
-padding: 50px 20px;
+padding: 50px 40px; /* padding same as padding + margin #home text. aligned.
+}
+
+#contact h2{
+  padding-bottom: 10px;
 }
 
 #contact ul{
@@ -209,8 +213,8 @@ a:visited{
     margin: 0 30px;
     background-color: #fcfbf7;
   }
-/* HOME STYLES */
 
+/* HOME STYLES */
   #home{
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -223,10 +227,14 @@ a:visited{
     text-align: left;
   }
 
-
   .grid{
     grid-template-columns: repeat(auto-fit,minmax(47.396%,1fr)); /* minmax percentage based on 50% minus the 20px grid gap */
     grid-template-rows: repeat(2,1fr);
+  }
+
+  /* CONTACT STYLES */
+  #contact{
+  padding: 50px 100px;
   }
 
 }
