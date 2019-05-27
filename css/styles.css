@@ -6,12 +6,17 @@
   box-sizing: border-box;
 }
 
-
 body{
   margin: 0;
   color:#444;
   background-color: #fff;
   font-family: 'Lato', sans-serif;
+}
+
+.main-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 ul{
@@ -55,11 +60,6 @@ a{
 img{
   width: 100%;
   height: auto;
-}
-
-
-.main-wrapper{
-  width: 100%;
 }
 
 /* HEADER STYLES */
@@ -189,6 +189,10 @@ footer li{
   font-weight: 100;
 }
 
+.footer-nav{
+  display: none;
+}
+
 /* PSEUDO CLASSES */
 
 a:link{
@@ -238,8 +242,35 @@ a:visited{
   }
 
   /* FOOTER STYLES */
+  .mobile-nav{
+    display: none;
+  }
 
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .footer-nav ul{
+    margin: 0;
+  }
+
+  .footer-nav li{
+    margin: 0 10px;
+    padding: 0;
+    background-color: #fff;
+  }
+
+  .footer-nav li:last-child{
+    margin-right: 0;
+  }
 }
 
 
