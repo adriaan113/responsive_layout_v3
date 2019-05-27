@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 body{
   margin: 0;
   color:#444;
@@ -132,7 +133,7 @@ margin: 60px auto;
 
 .grid{
   display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(100%,1fr));
   grid-template-rows: repeat(2,1fr);
   grid-gap: 20px;
 }
@@ -195,7 +196,7 @@ a:visited{
 /************ MEDIA QUERIES ************/
 
 /* HEADER STYLES */
-/*@media screen and (min-width: 768px){
+@media screen and (min-width: 768px){
   nav ul{
     display: flex;
     flex-direction: row;
@@ -207,7 +208,7 @@ a:visited{
     background-color: #fcfbf7;
   }
 /* HOME STYLES */
-/*
+
   #home{
     display: flex;
     flex-direction: row-reverse;
@@ -215,6 +216,10 @@ a:visited{
 
   }
 
+  .grid{
+    grid-template-columns: repeat(auto-fit,minmax(47.396%,1fr)); /* minmax percentage based on 50% minus the 20px grid gap */
+    grid-template-rows: repeat(2,1fr);
+  }
 
 }
 
