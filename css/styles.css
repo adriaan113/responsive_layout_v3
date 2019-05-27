@@ -108,12 +108,14 @@ padding: 5px 0;
   padding: 40px 0;
 }
 
-#home p{
-  padding: 20px 50px 0 40px;
+#home .main-text {
+  margin: 0;
+  padding: 40px 50px 0 40px;
 }
 
 #home img{
- max-width: 300px;
+ max-width: 367px;
+ max-height: 255px;
  margin: 0 auto;
 }
 
@@ -210,11 +212,17 @@ a:visited{
 /* HOME STYLES */
 
   #home{
-    display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-
+    padding-bottom: 70px;
   }
+
+  #home .main-text {
+    margin: 0;
+    padding: 0 20px 0 0;
+    text-align: left;
+  }
+
 
   .grid{
     grid-template-columns: repeat(auto-fit,minmax(47.396%,1fr)); /* minmax percentage based on 50% minus the 20px grid gap */
