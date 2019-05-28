@@ -67,7 +67,7 @@ header h1{
   text-align: center;
   font-family: 'Lobster', cursive;
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .header-nav ul{
@@ -139,7 +139,7 @@ margin: 60px;
 /* CONTACT STYLES */
 #contact{
 margin: 0 30px;
-padding: 50px 40px; /* padding same as padding + margin #home text. aligned.*/
+padding: 50px 40px;
 }
 
 #contact h2{
@@ -210,13 +210,13 @@ a:visited{
       margin: 0;
   }
 
-  nav ul{
+  .header-nav ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
-  nav li{
+  .header-nav li{
     margin: 0 30px;
     background-color: #fcfbf7;
   }
