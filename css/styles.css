@@ -105,7 +105,7 @@ padding: 5px 0;
   flex-direction: column;
   justify-content: center;
   margin: 0 30px;
-  padding: 40px 0;
+  padding: 40px 0 70px;
 }
 
 #home .main-text {
@@ -131,8 +131,9 @@ padding: 5px 0;
 margin: 60px auto;
 }
 
-#portfolio h3{
-  padding-top: 15px;
+
+#portfolio p{
+  margin: 20px 10px 40px;
 }
 
 .grid{
@@ -175,7 +176,7 @@ padding: 50px 40px; /* padding same as padding + margin #home text. aligned.*/
 footer{
   margin: 0 20px;
   border-top: 1px solid black;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 footer ul{
@@ -213,6 +214,11 @@ a:visited{
 
 @media screen and (min-width: 768px){
   /* HEADER STYLES */
+  header h1{
+      padding-top: 40px;
+      margin: 0;
+  }
+
   nav ul{
     display: flex;
     flex-direction: row;
@@ -229,6 +235,7 @@ a:visited{
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 70px;
+    margin: 0 20px;
   }
 
   #home .main-text {
@@ -341,6 +348,5 @@ header{
   /* FOOTER STYLES */
   footer{
     margin: 0 60px;
-    padding: 20px 0;
   }
 }
