@@ -168,6 +168,7 @@ padding: 50px 40px; /* padding same as padding + margin #home text. aligned.*/
 
 #contact a{
   color: #a3a3a3;
+  font-weight: 900;
 }
 
 /* FOOTER STYLES */
@@ -333,6 +334,13 @@ header{
 
   /* CONTACT STYLES */
   #contact{
-  padding: 50px 200px;
+  margin: 0 30px;
+  padding: 50px 170px;
+  }
+
+  /* FOOTER STYLES */
+  footer{
+    margin: 0 60px;
+    padding: 20px 0;
   }
 }
