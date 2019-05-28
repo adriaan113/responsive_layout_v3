@@ -9,7 +9,7 @@
 body{
   margin: 0;
   color:#444;
-  background-color: #fff;
+  background-color: #fcfbf7;
   font-family: 'Lato', sans-serif;
 }
 
@@ -17,6 +17,7 @@ body{
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #fcfbf7;
 }
 
 ul{
@@ -121,7 +122,9 @@ padding: 5px 0;
 /* PORTFOLIO STYLES */
 
 #portfolio{
-  margin: 0 30px;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #fff;
 }
 
 #portfolio h2{
@@ -233,6 +236,7 @@ a:visited{
     text-align: left;
   }
 
+/* PORTFOLIO STYLES */
   .grid{
     grid-template-columns: repeat(auto-fit,minmax(47.396%,1fr)); /* minmax percentage based on 50% minus the 20px grid gap */
   }
@@ -266,7 +270,7 @@ a:visited{
   .footer-nav li{
     margin: 0 10px;
     padding: 0;
-    background-color: #fff;
+    background-color: #fcfbf7;
   }
 
   .footer-nav li:last-child{
@@ -284,20 +288,25 @@ header{
 
   header h1{
     display: inline-block;
-    margin: 30px;
+    margin: 30px 0 0 60px;
+    padding: 10px 0;
     text-align: left;
   }
 
   .header-nav{
     float:right;
-    margin: 30px;
+    margin: 30px 60px 0 0;
   }
 
-  nav ul{
+  .header-nav ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 0 30px;
+    margin: 0;
+  }
+
+  .header-nav li:last-child{
+    margin-right: 0;
   }
 
 
@@ -307,14 +316,23 @@ header{
     clear: right;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 0;
+    margin: 0 60px ;
     padding-bottom: 70px;
   }
 
 
+/* PORTFOLIO STYLES */
+  #portfolio{
+    margin: 0 30px;
+    padding: 0 30px;
+  }
 
   .grid{
     grid-template-columns: repeat(3,1fr); /* minmax percentage based on 50% minus the 20px grid gap */
   }
 
+  /* CONTACT STYLES */
+  #contact{
+  padding: 50px 200px;
+  }
 }
