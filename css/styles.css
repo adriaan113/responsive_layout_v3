@@ -13,6 +13,7 @@ body{
 
 .main-wrapper{
   width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   background-color: #fcfbf7;
@@ -64,6 +65,10 @@ img{
 }
 
 /* HEADER STYLES */
+header{
+  max-width: 1600px;
+  margin: 0 auto;
+}
 
 header h1{
   font-family: 'Lobster', cursive;
@@ -138,9 +143,11 @@ margin: 50px;
 
 /* SKILLS STYLES */
   #skills{
+    width: 100%;
+    max-width: 1660px;
     background-color: #eab8b7;
-    margin: 0 15px;
-    padding: 50px 0;
+    margin: 30px auto 0;
+    padding: 50px 20px;
   }
 
   #skills h2{
@@ -284,6 +291,18 @@ a:visited{
     grid-template-columns: repeat(auto-fit,minmax(47.396%,1fr)); /* minmax percentage based on 50% minus the 20px grid gap */
   }
 
+/* SKILLS STYLES */
+  #skills ul{
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px 15px;
+  }
+
+  #skills li{
+    padding: 5px 10px;
+    margin: 5px 10px;
+  }
+
   /* CONTACT STYLES */
   #contact{
   padding: 50px 100px;
@@ -324,11 +343,6 @@ a:visited{
 
 @media screen and (min-width: 1024px){
 /* HEADER STYLES */
-header{
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 
   header h1{
     display: inline-block;
@@ -356,7 +370,6 @@ header{
 
 /* HOME STYLES */
   #home{
-    display: flex;
     clear: right;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -374,6 +387,18 @@ header{
   .grid{
     grid-template-columns: repeat(3,1fr);
   }
+
+  /* SKILLS STYLES */
+    #skills ul{
+    flex-direction: row;
+    justify-content: center;
+    }
+
+
+    /* CONTACT STYLES */
+    #contact{
+    padding: 50px 100px;
+    }
 
   /* CONTACT STYLES */
   #contact{
