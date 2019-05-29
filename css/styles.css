@@ -67,14 +67,13 @@ img{
 /* HEADER STYLES */
 header{
   max-width: 1600px;
-  margin: 0 auto;
 }
 
 header h1{
   font-family: 'Lobster', cursive;
   color:#fdd275;
   margin-top: 0;
-  padding: 20px 15px 0;
+  padding: 40px 15px;
 }
 
 .header-nav ul{
@@ -98,11 +97,13 @@ padding: 5px 0;
 /* HOME STYLES */
 
 #home{
+  width: 100%;
+  max-width: 1600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 15px;
-  padding: 40px 0 0;
+  margin: 0 auto;
+  padding: 40px 20px 0;
 }
 
 #home .main-text {
@@ -162,7 +163,6 @@ margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10px;
   }
 
   #skills li{
@@ -256,9 +256,10 @@ a:visited{
 
 @media screen and (min-width: 768px){
   /* HEADER STYLES */
+
   header h1{
-      padding-top: 40px;
-      margin: 0;
+    margin: 0;
+    padding: 40px 15px 20px;
   }
 
   .header-nav ul{
@@ -277,7 +278,6 @@ a:visited{
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 70px;
-    margin: 0 20px;
   }
 
   #home .main-text {
@@ -343,17 +343,20 @@ a:visited{
 
 @media screen and (min-width: 1024px){
 /* HEADER STYLES */
+  header{
+    width: 100%;
+    margin: 0 auto;
+  }
 
   header h1{
     display: inline-block;
-    margin: 30px 0 0 60px;
-    padding: 10px 0;
+    padding: 40px 20px;
     text-align: left;
   }
 
   .header-nav{
     float:right;
-    margin: 30px 60px 0 0;
+    padding:40px 20px 0;
   }
 
   .header-nav ul{
@@ -373,7 +376,6 @@ a:visited{
     clear: right;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 0 60px ;
     padding-bottom: 70px;
   }
 
@@ -388,17 +390,17 @@ a:visited{
     grid-template-columns: repeat(3,1fr);
   }
 
-  /* SKILLS STYLES */
-    #skills ul{
-    flex-direction: row;
-    justify-content: center;
-    }
+/* SKILLS STYLES */
+  #skills ul{
+  flex-direction: row;
+  justify-content: center;
+  }
 
 
-    /* CONTACT STYLES */
-    #contact{
-    padding: 50px 100px;
-    }
+  /* CONTACT STYLES */
+  #contact{
+  padding: 50px 100px;
+  }
 
   /* CONTACT STYLES */
   #contact{
