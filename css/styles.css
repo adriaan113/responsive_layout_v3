@@ -26,7 +26,9 @@ ul{
 h1,
 h2,
 h3,
-p{
+p,
+a
+{
   text-align: center;
 }
 
@@ -67,21 +69,20 @@ header h1{
   font-family: 'Lobster', cursive;
   color:#fdd275;
   margin-top: 0;
-  padding-top: 40px;
+  padding: 20px 15px 0;
 }
 
 .header-nav ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 30px;
+  margin: 0 15px;
 }
 
 .header-nav li{
   background-color: #fff;
   margin: 5px 0;
   font-weight: 700;
-  padding: 10px 0;
 }
 
 .header-nav a{
@@ -95,13 +96,13 @@ padding: 5px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 30px;
-  padding: 40px 0 70px;
+  margin: 0 15px;
+  padding: 40px 0 0;
 }
 
 #home .main-text {
   margin: 0;
-  padding: 40px 40px;
+  padding: 40px 0;
 }
 
 #home img{
@@ -119,12 +120,12 @@ padding: 5px 0;
 }
 
 #portfolio h2{
-margin: 60px;
+margin: 50px;
 }
 
 
 #portfolio p{
-  margin: 20px 10px 40px;
+  margin: 20px 0 40px;
 }
 
 .grid{
@@ -135,26 +136,60 @@ margin: 60px;
   grid-gap: 20px;
 }
 
+/* SKILLS STYLES */
+  #skills{
+    background-color: #eab8b7;
+    margin: 0 15px;
+    padding: 50px 0;
+  }
+
+  #skills h2{
+   padding: 0 0 10px;
+  }
+
+  #skills p{
+    color: #cbdfd7;
+  }
+
+  #skills ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  }
+
+  #skills li{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    background-color: #cbdfd7;
+    color: #3b202f;
+    margin: 5px auto;
+  }
+
+  #skills li:nth-child(odd){
+    background-color: #3b202f;
+    color: #cbdfd7;
+  }
+
+
+
 /* CONTACT STYLES */
 #contact{
-margin: 0 30px;
-padding: 50px 40px;
+margin: 0 15px;
+padding: 50px 0;
 }
 
 #contact h2{
   padding-bottom: 10px;
 }
 
-#contact ul{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #contact li{
   padding: 10px 0;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #a3a3a3;
+  text-align: center;
 }
 
 #contact a{
@@ -182,8 +217,13 @@ footer li{
 
 .logo-footer{
   font-family: 'Lobster', cursive;
+  font-size: 0.8em;
   font-weight: 100;
   color:#fdd275;
+}
+
+.mobile-nav{
+  font-size: 0.8em;
 }
 
 .footer-nav{
@@ -288,6 +328,7 @@ header{
   max-width: 1600px;
   margin: 0 auto;
 }
+
 
   header h1{
     display: inline-block;
